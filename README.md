@@ -17,8 +17,13 @@ The virtualization software (hypervisor) that was used was Oracle VirtualBox ([o
 
 - The memory size and the size of the virtual hard disk were set to 1024 MB and 30.8 GB, respectively.
 - The partitions were set manually. The primary partition (sda1) was set to 500 MB and an encrypted logical partition (sda5) was created.
-- The Logical Volume Manager (LVM) was configured creating a volume group named LVMGroup. Each logical volume was created and properly configured, selecting the file system (Ext4) and the respective mount point (SEE IMAGE).
-- With the OS fully installed and the disk properly partitioned the detailed partition structure can be shown by typing `lsblk` on the command line.
+- The Logical Volume Manager (LVM) was configured creating a volume group named LVMGroup. Each logical volume was created and properly configured, selecting the file system (Ext4) and the respective mount point.
+- With the OS fully installed and the disk properly partitioned the detailed partition structure can be shown by typing `lsblk` on the command line (see the image below for an example output).
+
+<p align="center">
+<img width="942" alt="lsblk_output" src="https://github.com/user-attachments/assets/aabe3ebd-bfd8-4ec7-a4ca-266e3d29a90a" />
+</p>
+
 - To check the OS installed: `$ uname -v`
 - To see if there is no graphical interface: `$ ls /usr/bin/*session`
 
