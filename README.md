@@ -2,7 +2,7 @@
 
 ### [MILESTONE 1]
 ### SUMMARY
-This project was an introduction to the world of visualization. The goal was to create a virtual machine (VM) under specific requirements.
+This project was an introduction to the world of virtualization. The goal was to create a virtual machine (VM) under specific requirements.
 
 It was only necessary to submit a text file with the SHA-1 checksum to verify the integrity of the VM.
 
