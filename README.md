@@ -217,7 +217,7 @@ retry=3 minlen=10 ucredit=-1 lcredit=-1 dcredit=-1 maxrepeat=3 reject_username d
 ### 3. SCRIPT AND CRONTAB
 ---
 
-A script named `monitoring.sh` was created in bash to display some information on all terminals every 10 minutes since the server startup.
+A script named `monitoring.sh`([see file](https://github.com/ricvrdv/Born2beRoot/blob/main/monitoring.sh)) was created in bash to display some information on all terminals every 10 minutes since the server startup.
 
 #### 3.1 CREATING THE SCRIPT IN BASH
 
