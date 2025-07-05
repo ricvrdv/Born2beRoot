@@ -313,8 +313,6 @@ Then:
 
 And save it in a `signature.txt` file.
 
----
-
 ----
 🐸 Feel free to fork, clone, or contact me for questions or feedback. 
 
